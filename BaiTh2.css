@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator {
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+.header {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+
+#logo_cal {
+    display: flex;
+    align-items: center;
+}
+
+#title-H {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.window-control {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+/* menu */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-size: 25px;
+    height: 10px;
+}
+.menu-icon{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.reset-M{
+    cursor: pointer;
+}
+.title-M{
+    font-size: 30px;
+
+}
+.display{
+    width: 492px;
+    height: 80px;
+    text-align: right bottom;
+    background-color: #fefafa;
+}
+/* nút bấm */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background: #ccc;
+}
